@@ -108,6 +108,47 @@ section {
     width: 100%;
   }
 }
+//---------------------------------------------------
+// Navigation
+//---------------------------------------------------
+nav[role="navigation"] {
+  background-color: $dark-blue;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 11;
+  
+
+    ol {
+      margin-bottom: 0px;
+      margin-right: 20px;
+      float: right;
+    }
+
+    li {
+      display: inline-block;
+
+
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding-left: 20px;
+
+ 
+    }
+
+    img {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      height: 40px;
+      
+    }
+}
 
 //---------------------------------------------------
 // Masthead
