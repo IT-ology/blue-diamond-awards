@@ -324,76 +324,122 @@ textarea {
 //---------------------------------------------------
 // Nomination Categories List
 //---------------------------------------------------
-.nomination-descriptions {
-  @include clear;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  @include breakpoint(medium) {
-    margin-top: 100px;
+ #winner-categories {
+  padding-top: 20px;
+
+  small {
+    display: block;
   }
-  li {
-    @include clear;
-    padding-bottom: 50px;
-    position: relative;
-    @include breakpoint(large) {
-      min-height: 250px;
-      padding-bottom: 0;
-      &:nth-child(2) {
-        margin-top: 150px;
-      }
+
+
+  .diamond-icon {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+     @include breakpoint(medium) {
+      width: 80px;
     }
-    &:nth-child(odd) {
-      padding-right: 130px;
-      @include breakpoint(medium) {
-        padding-right: 180px;
-      }
-      @include breakpoint(large) {
-        float: left;
-        width: 50%;
-      }
-      img {
-        right: 0;
-      }
-    }
-    &:nth-child(even) {
-      padding-left: 130px;
-      @include breakpoint(medium) {
-        padding-left: 180px;
-      }
-      @include breakpoint(large) {
-        float: right;
-        width: 50%;
-      }
-      img {
-        left: 0;
-      }
-    }
-    &:last-child {
-      padding-bottom: 0;
-    }
-    @include breakpoint(medium) {
-      margin-bottom: 60px;
-    }
-  }
-  img {
-    position: absolute;
-      top: 0;
-    width: 100px;
-    @include breakpoint(medium) {
-      top: -40px;
-      width: 150px;
-    }
-  }
-  h3 {
-    font-size: 24px;
-    line-height: 1.3em;
-  }
-  p {
-    margin: 0;
-    padding: 0;
   }
 }
+
+.winner-descriptions {
+  list-style-type: none;
+  > li {
+    @include clear;
+    @include display-flex;
+    @include align-items(center);
+    clear: both;  
+    border-top: 1px solid #efefef;
+    padding: 30px 0;
+  }
+
+
+  p, li ul, strong {
+    font-size: 14px;
+    color: lighten(#505050, .7);
+    padding-bottom: 0;
+    text-decoration: none;
+  }
+
+   a {
+    font-size: 16px;
+    font-weight: lighter; 
+    text-decoration: none;
+    color: lighten(#505050, .7);
+  }
+
+}
+
+.category-details{
+  width: 70%;
+  float: left;
+  position: relative;
+  padding: 0 40px 0 130px;
+  &:after {
+    background-color: #efefef;
+    content: "";
+    width: 1px;
+    position: absolute;
+    top: 10px;
+    bottom: 5%;
+    right: 5%;
+  }
+
+
+  img{
+    width: 100px;
+    list-style-type: none;
+    position: absolute;
+    margin-top: -76px;
+    top: 50%;
+    left: 0;
+  }
+
+    h3 {
+    color: $heading-color;
+    text-align: left;  
+    line-height: 1.2;
+
+  }
+  
+  p {
+    text-align: left;
+    }
+}
+
+.category-winners {
+  float: right;
+  width: 30%;
+
+
+  h5 {
+  margin-top: 15px;
+  color: #505050;
+  font-size: 16px;
+  margin-bottom: 0px;
+
+  }
+
+  h4 {
+    margin: 0;
+    color: #505050;
+    font-size: 24px;
+  }
+
+  li {
+    list-style: none;
+
+  }
+
+  ul{
+    text-align: left;
+    margin: 0;
+    
+  }
+}
+
+
 
 //---------------------------------------------------
 // Finalists
@@ -482,58 +528,7 @@ textarea {
 // Winner Categories List
 //---------------------------------------------------
 
-#winner-categories {
-  h2, h3, h4, h5, h6 {
-    line-height: 1.2em;
-  }
 
-  h2 {
-    margin: 0;
-  }
-
-  h3 {
-    color: $heading-color;
-    text-align: center;
-    margin-bottom: 24px;
-  }
-  
-  h4 {
-    font-size: 24px;
-    margin-bottom: 5px;
-    color: #505050;
-  }
-
-  h5 {
-    font-size: 24px;
-    margin: 0px;
-  }
-
-  h6 {
-    font-size: 14px;
-    color: #505050;
-    margin-top: 15px;
-    margin-bottom: 6px;
-  }
-
-  p, a {
-    font-size: 14px;
-    color: $heading-color;
-    text-decoration: none;
-  }
-
-  padding-top: 36px;
-  padding-bottom: 30px;
-
-  .diamond-icon {
-    display: block;
-    width: 50px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-     @include breakpoint(medium) {
-      width: 80px;
-    }
-  }
-}
 
 //---------------------------------------------------
 // Callout Container
@@ -757,5 +752,11 @@ footer[role="contentinfo"] {
       bottom: 0;
       left: 0;
       right: 0;
+  }
+
+  iframe {
+    border: 0;
+
+
   }
 }
