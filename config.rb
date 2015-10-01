@@ -94,6 +94,11 @@ set :images_dir, 'assets/images'
 # ----------------------------------------------
 # Build-specific configuration
 # ----------------------------------------------
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true # default: false
+end
+
 configure :build do
   # Change Compass configuration
   compass_config do |config|
@@ -121,3 +126,4 @@ configure :build do
   require "middleman-smusher"
   activate :smusher
 end
+
