@@ -1,0 +1,21 @@
+section#winner-categories
+  .inner
+    img.icon.diamond-icon src="/assets/images/layout/blue-diamond.png" alt="Blue Diamond"
+    
+
+    h2 Make a nomination
+ 
+    ul.winner-descriptions
+      - data.nominations.each do |winner|
+        li
+          .category-details
+            img.icon src="#{winner.image}"
+            h3 #{winner.category}
+            p #{winner.description}
+          .category-winners
+            
+            strong: a href="http://#{winner.website}" target="_blank" #{winner.name}
+            strong: a href="http://#{winner.website2}" target="_blank" #{winner.name2}
+
+         
+          
