@@ -189,6 +189,15 @@ nav[role="navigation"] {
     height: 800px;
     top: -683px;
   }
+  
+  .credit {
+  color: #ccc;
+  font-size: .5em;
+  top: 0;
+  float: right;
+  margin-right: 1px;
+   }
+
   .inner {
     position: relative;
     z-index: 10;
@@ -215,6 +224,8 @@ nav[role="navigation"] {
     // padding: 0;
   }
 }
+
+
 
 //---
 // Subscribe
