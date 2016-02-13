@@ -37,6 +37,23 @@
   padding: 0 5%;
   max-width: 960px;
 }
+
+//---------
+// About
+//-----
+
+  #about {
+    padding-bottom: 0;
+    margin-top: 30px;
+    padding-top: 0;
+  }
+
+  #nominations {
+    padding-top: 0;
+  }
+
+
+
 //---------------------------------------------------
 // Section
 //---------------------------------------------------
@@ -64,6 +81,7 @@ section {
 h4 {
   margin: auto 0;
   text-align: center;
+  // width: 97%;
 
 }
 
@@ -338,9 +356,130 @@ textarea {
   }
 }
 
+// -------------------------------
+// 2016 finalists
+//-------------------
+
+#finalists {
+  padding-top: 20px;
+
+  small {
+    display: block;
+  }
+
+
+  .diamond-icon {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+     @include breakpoint(medium) {
+      width: 80px;
+    }
+  }
+}
+
+.finalist-descriptions {
+  list-style-type: none;
+  > li {
+    @include clear;
+    @include display-flex;
+    @include align-items(center);
+    clear: both;  
+    border-top: 1px solid #efefef;
+    padding: 30px 0;
+  }
+
+
+  p, li ul, strong {
+    font-size: 14px;
+    color: lighten(#505050, .7);
+    padding-bottom: 0;
+    text-decoration: none;
+  }
+
+   a {
+    font-size: 16px;
+    font-weight: lighter; 
+    text-decoration: none;
+    color: lighten(#505050, .7);
+  }
+
+}
+
+.category-details{
+  width: 70%;
+  float: left;
+  position: relative;
+  padding: 0 40px 0 130px;
+  &:after {
+    background-color: #efefef;
+    content: "";
+    width: 1px;
+    position: absolute;
+    top: 10px;
+    bottom: 5%;
+    right: 5%;
+  }
+
+
+  img{
+    width: 100px;
+    list-style-type: none;
+    position: absolute;
+    margin-top: -76px;
+    top: 50%;
+    left: 0;
+  }
+
+    h3 {
+    color: $heading-color;
+    text-align: left;  
+    line-height: 1.2;
+
+  }
+  
+  p {
+    text-align: left;
+    }
+}
+
+.category-finalist {
+  float: right;
+  width: 30%;
+
+
+  h5 {
+  margin-top: 15px;
+  color: #505050;
+  font-size: 16px;
+  margin-bottom: 0px;
+
+  }
+
+  h4 {
+    margin: 0;
+    color: #505050;
+    font-size: 24px;
+  }
+
+  li {
+    list-style: none;
+
+  }
+
+  ul{
+    text-align: left;
+    margin: 0;
+    
+  }
+}
+
 //---------------------------------------------------
 // Nomination Categories List
 //---------------------------------------------------
+
+
  #winner-categories {
   padding-top: 20px;
 
@@ -815,6 +954,49 @@ textarea {
   }
 
 }
+
+
+// #title {
+//   height: 200px;
+
+// }
+
+// #vip {
+//   height: 150px;
+// }
+
+// #presenter {
+//   height: 60px;
+// }
+
+#title, #vip, #presenter {
+  margin-top: 30px;
+  padding-left: 70px;
+  height: 100px;
+}
+
+#presenter {
+  width: 300px;
+}
+
+.educators, .infrastructure {
+  list-style: none;
+  display: inline-block;
+
+  li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+
+}
+
+.educators {
+    font-size: 1.5em;
+  }
+
+
+
 //---------------------------------------------------
 // Footer
 //---------------------------------------------------

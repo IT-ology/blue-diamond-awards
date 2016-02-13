@@ -1,0 +1,38 @@
+/ data for this file found in /data/winners.yaml
+section#masthead
+  strong.credit Photo by: James Wilmor
+
+  .inner
+    h1.logo
+      img.itology src="/assets/images/layout/it-ology-presents.png" alt="IT-oLogy Presents the"
+      a href="/"
+        img.bluediamond src="/assets/images/layout/blue-diamond-logo.png" alt="Blue Diamond Awards - 2013: Presented by IT-oLogy"
+      .ribbon
+    p THE BLUE DIAMOND AWARDS CELEBRATES THE BEST IN TECHNOLOGY IN THE GREATER CHARLOTTE REGION. 
+
+    p March 1, 2016,  6:30 – 9:00 PM AT THE NASCAR HALL OF FAME
+
+
+section#finalists
+  .inner
+    img.icon.diamond-icon src="/assets/images/layout/blue-diamond.png" alt="Blue Diamond"
+    
+
+    h2 2016 Finalists
+    p IT-oLogy Charlotte has announced 27 finalists across nine categories that represent exceptional technology talent and innovation in the Greater Charlotte region. The nine winners will be announced at the 2016 Blue Diamond Awards ceremony to be held evening of Tuesday, Mar. 1, 2016, at the NASCAR Hall of Fame.  
+ 
+    ul.finalist-descriptions
+      - data.finalists.each do |finalist|
+        li
+          .category-details
+            img.icon src="#{finalist.image}"
+            h3=finalist.category
+            p=finalist.description
+
+          .category-finalists
+
+            h4 Finalists
+
+            ul
+              - finalist.name.each do |winner|              
+                li=winner
