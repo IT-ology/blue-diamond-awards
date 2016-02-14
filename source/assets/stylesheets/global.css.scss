@@ -81,7 +81,6 @@ section {
 h4 {
   margin: auto 0;
   text-align: center;
-  // width: 97%;
 
 }
 
@@ -956,46 +955,37 @@ textarea {
 }
 
 
-// #title {
-//   height: 200px;
-
-// }
-
-// #vip {
-//   height: 150px;
-// }
-
-// #presenter {
-//   height: 60px;
-// }
-
-#title, #vip, #presenter {
-  margin-top: 30px;
-  padding-left: 70px;
-  height: 100px;
-}
-
-#presenter {
-  width: 300px;
-}
-
-.educators, .infrastructure {
-  list-style: none;
-  display: inline-block;
-
-  li {
-    display: inline-block;
-    margin-left: 15px;
-  }
-
-
+.sponimg {
+  height: 125px;
+  margin-left: 5px;
 }
 
 .educators {
-    font-size: 1.5em;
-  }
+  list-style: none;
+
+    li {
+      display: inline-block;
+      // margin-left: 20px;
+      text-align: center;
+      font-weight: bolder;
+      color: #00688B;
+     
+
+    }
 
 
+}
+
+.infrastructure {
+   list-style: none;
+
+    li {
+      display: inline-block;
+      margin-left: 20px;
+      text-align: center;
+
+    }
+}
 
 //---------------------------------------------------
 // Footer
