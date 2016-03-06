@@ -1,73 +1,67 @@
 ---
 - category: Human Capital
-  description: The indivual or group that has made major contributions in the development or recruitment of IT talent to the Charlotte area. 
+  description: The individual or group that has made major contributions in the development or recruitment of IT talent to the Charlotte area. 
   image: /assets/images/content/icon-human-capital-winner.png
-  name: UNC Charlotte College of Computing and Informatics 
+  name: Logical Advantage
+  website: www.logicaladvantage.com
   notable_mentions:
-    - Tech Talent South
-    - TIAA-CREF     
-- category: Student Innovator
+    - Queen Associates
+    - Tech Talent South       
+- category: Student Innovation
   description: The individual student that has created new and innovative technology or has demonstrated the innovative use of existing technology to drive value.
   image: /assets/images/content/icon-student-innovator-winner.png
-  name: Tom Nguyen, Philip O Berry Academy of Technology
+  name: Michael Kersting, Young Engineers of Today
+  website: www.piabetes.weebly.com
   notable_mentions:
-    - Scott Bowman, Charlotte Latin School
-    - Jackson Styers/Lizbeth Rangel, Charlotte Mecklenburg Schools
-
+    - Crystal Starks, Girl Develop IT
+    - Zack May, Charlotte Mecklenburg Schools
 - category: IT Entrepreneur
   description: The entrepreneurial individual that has turned a creative vision into a profitable and enduring business through the direct application of information technology.
   image: /assets/images/content/icon-it-entrepreneur-winner.png
-  name: Brian Kelly, CloudGenera
+  name: David Jones, Peak 10
+  website: www.peak10.com/about-peak-10/leadership
   notable_mentions:
-    - Keith Luedeman, goodmortgage.com
-    - Mark Mahoney, Jackrabbit Technologies  
-
-
-- category: Business Value – Small
+    - Brian Kelly, Cloud Genera
+    - Eric Waynick, Thinkgate
+- category: Business Value – Small/Medium
   description: The IT solution that creates the greatest business value, and the company where it was implemented.
   image: /assets/images/content/icon-business-value-small-winner.png
-  name: ProductStack
+  name: ecomdash
+  website: www.ecomdash.com
   notable_mentions:
-    - AddShoppers
-    - Dealcloud
-
-- category: Business Value – Medium
-  description: The IT solution that creates the greatest business value, and the company where it was implemented.
-  image: /assets/images/content/icon-business-value-medium.png
-  name: Avidxchange
-  notable_mentions:
-    - SnapAV
-    - Steritech
-
-- category: Business Value – Corporate
-  description: The IT solution that creates the greatest business value, and the company where it was implemented.
-  image: /assets/images/content/icon-business-value-corporate-winner.png
-  name: Ally Bank, New Online Banking Platform
-  notable_mentions:
-    - Premier Inc, SOLR
-    - Premier Inc, HVBP
-
+    - Barnhardt Manufacturing
+    - Thinkgate       
 - category: Community Outreach
   description: The individual IT Practitioner, Student(s), or organization that has demonstrated value through a volunteer non-fee based community support outreach program.
   image: /assets/images/content/icon-community-outreach-winner.png
-  name: SIM Charlotte Region 
+  name: Bosch Rexroth
+  name2: Women Executives - WINGS program
+  website: www.boschrexroth.com
+  website2: www.wecharlotte.org/about-wings-wecs
   notable_mentions:
-    - Corporate Information Technology
-    - North Highland Consulting
-
-- category: Cool Innovation
+    - Charlotte Region STARS Computing Corps   
+- category: Business Value – Corporate
+  description: The IT solution that creates the greatest business value, and the corporation where it was implemented.
+  image: /assets/images/content/icon-business-value-corporate-winner.png
+  name: Rubbermaid Healthcare
+  website: www.rubbermaidhealthcare.com
+  notable_mentions:
+    - Bank of America
+    - LPL Financial        
+- category: Cool Innovator
   description: The individual or company that demonstrates the best example of creativity, execution and applied invention, which addresses a new approach to an old problem that may make lasting and far reaching changes in the way we work with each other.  Value + Creativity + Execution = Cool Innovation.
   image: /assets/images/content/icon-cool-innovator-winner.png
-  name: Ekos Brewmaster
+  name: ecomdash
+  website: www.ecomdash.com
   notable_mentions:
-    - Charlotte Mecklenburg School
-    - CloudGenera
-
+    - Hours Tracking, Tapity
+    - SmartCharge Bulb, TVL International
 - category: Business Value – Non-Profit
   description: The IT solution that creates the greatest business value, and the non-profit where it was implemented.
   image: /assets/images/content/icon-business-non-profit-winner.png
-  name: Eliminate Digital Divive (E2D)
+  name: Charlotte Mecklenburg Schools
+  website: www.cms.k12.nc.us
   notable_mentions:
+    - Apparo
     - City of Charlotte
-    - YMCA
 ---

@@ -1,26 +1,26 @@
 / data for this file found in /data/winners.yaml
-section#winner-categories
-  .inner
-    img.icon.diamond-icon src="/assets/images/layout/blue-diamond.png" alt="Blue Diamond"
+/ section#winner-categories
+/   .inner
+/     img.icon.diamond-icon src="/assets/images/layout/blue-diamond.png" alt="Blue Diamond"
     
 
-    h2 Congratulations! <small>To our 2015 winners</small>
+/     h2 Congratulations! <small>To our 2015 winners</small>
  
-    ul.winner-descriptions
-      - data.winners.each do |winner|
-        li
-          .category-details
-            img.icon src="#{winner.image}"
-            h3 #{winner.category}
-            p #{winner.description}
-          .category-winners
-            h4 Winner
-            strong: a href="http://#{winner.website}" target="_blank" #{winner.name}
-            strong: a href="http://#{winner.website2}" target="_blank" #{winner.name2}
+/     ul.winner-descriptions
+/       - data.winners.each do |winner|
+/         li
+/           .category-details
+/             img.icon src="#{winner.image}"
+/             h3 #{winner.category}
+/             p #{winner.description}
+/           .category-winners
+/             h4 Winner
+/             strong: a href="http://#{winner.website}" target="_blank" #{winner.name}
+/             strong: a href="http://#{winner.website2}" target="_blank" #{winner.name2}
 
-            h5 Notable Mentions
-            ul
-              - winner.notable_mentions.each do |mention|
-                li #{mention}
+/             h5 Notable Mentions
+/             ul
+/               - winner.notable_mentions.each do |mention|
+/                 li #{mention}
 
           
