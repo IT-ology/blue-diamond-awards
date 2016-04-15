@@ -443,6 +443,7 @@ textarea {
     }
 }
 
+
 .category-finalist {
   float: right;
   width: 30%;
@@ -477,6 +478,7 @@ textarea {
 //---------------------------------------------------
 // Nomination Categories List
 //---------------------------------------------------
+
 
 
  #winner-categories {
@@ -953,35 +955,50 @@ textarea {
   }
 
 }
-
-
-.sponimg {
-  height: 125px;
-  margin-left: 5px;
+//-- Images for sponsorships --//
+.title img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
-.educators {
-  list-style: none;
-
-    li {
-      display: inline-block;
-      margin-left: 20px;
-      text-align: center;
-      font-weight: bolder;
-      color: #00688B;
-    }
-
+.vip img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 175px;
 }
+
+.award {
+  li{
+  display: inline-block;
+
+  }
+
+  img {
+    height: 120px;
+    margin: 7px;
+  }
+}
+
+.educator {
+  li{
+  display: inline;
+  margin-left: 18%;
+
+  }
+  img{
+    height: 75px;
+    
+  }
+}
+
+//-- Infrastructure list --//
 
 .infrastructure {
-   list-style: none;
+  list-style: none;
+  text-align: center;
 
-    li {
-      // display: inline-block;
-      margin-left: 20px;
-      text-align: center;
-
-    }
 }
 
 //---------------------------------------------------

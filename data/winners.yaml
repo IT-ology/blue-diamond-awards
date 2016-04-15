@@ -3,14 +3,14 @@
   description: The indivual or group that has made major contributions in the development or recruitment of IT talent to the Charlotte area. 
   image: /assets/images/content/icon-human-capital-winner.png
   name: UNC Charlotte College of Computing and Informatics 
-  notable_mentions:
+  finalists:
     - Tech Talent South
     - TIAA-CREF     
 - category: Student Innovator
   description: The individual student that has created new and innovative technology or has demonstrated the innovative use of existing technology to drive value.
   image: /assets/images/content/icon-student-innovator-winner.png
   name: Tom Nguyen, Philip O Berry Academy of Technology
-  notable_mentions:
+  finalists:
     - Scott Bowman, Charlotte Latin School
     - Jackson Styers/Lizbeth Rangel, Charlotte Mecklenburg Schools
 
@@ -18,7 +18,7 @@
   description: The entrepreneurial individual that has turned a creative vision into a profitable and enduring business through the direct application of information technology.
   image: /assets/images/content/icon-it-entrepreneur-winner.png
   name: Brian Kelly, CloudGenera
-  notable_mentions:
+  finalists:
     - Keith Luedeman, goodmortgage.com
     - Mark Mahoney, Jackrabbit Technologies  
 
@@ -27,7 +27,7 @@
   description: The IT solution that creates the greatest business value, and the company where it was implemented.
   image: /assets/images/content/icon-business-value-small-winner.png
   name: ProductStack
-  notable_mentions:
+  finalists:
     - AddShoppers
     - Dealcloud
 
@@ -35,7 +35,7 @@
   description: The IT solution that creates the greatest business value, and the company where it was implemented.
   image: /assets/images/content/icon-business-value-medium.png
   name: Avidxchange
-  notable_mentions:
+  finalists:
     - SnapAV
     - Steritech
 
@@ -43,7 +43,7 @@
   description: The IT solution that creates the greatest business value, and the company where it was implemented.
   image: /assets/images/content/icon-business-value-corporate-winner.png
   name: Ally Bank, New Online Banking Platform
-  notable_mentions:
+  finalists:
     - Premier Inc, SOLR
     - Premier Inc, HVBP
 
@@ -51,7 +51,7 @@
   description: The individual IT Practitioner, Student(s), or organization that has demonstrated value through a volunteer non-fee based community support outreach program.
   image: /assets/images/content/icon-community-outreach-winner.png
   name: SIM Charlotte Region 
-  notable_mentions:
+  finalists:
     - Corporate Information Technology
     - North Highland Consulting
 
@@ -59,7 +59,7 @@
   description: The individual or company that demonstrates the best example of creativity, execution and applied invention, which addresses a new approach to an old problem that may make lasting and far reaching changes in the way we work with each other.  Value + Creativity + Execution = Cool Innovation.
   image: /assets/images/content/icon-cool-innovator-winner.png
   name: Ekos Brewmaster
-  notable_mentions:
+  finalists:
     - Charlotte Mecklenburg School
     - CloudGenera
 
@@ -67,7 +67,7 @@
   description: The IT solution that creates the greatest business value, and the non-profit where it was implemented.
   image: /assets/images/content/icon-business-non-profit-winner.png
   name: Eliminate Digital Divive (E2D)
-  notable_mentions:
+  finalists:
     - City of Charlotte
     - YMCA
 ---
